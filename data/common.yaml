@@ -4,3 +4,5 @@ lookup_options:
     merge: hash
   splunk::auth:
     merge: hash
+  splunk::rolemap:
+    merge: deep
